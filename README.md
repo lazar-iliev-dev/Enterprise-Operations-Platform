@@ -178,4 +178,4 @@ Inspired by Domain-Driven Design and Clean Architecture principles
 
 Legacy projects: Smart-Task-API & IT-Knowledge-Database
 
-<div align="center"> <sub>Built with ❤️ by <a href="https://github.com/lazar-iliev-dev">Lazar Iliev</a></sub> </div> EOF ```
+<div align="center"> <sub>Built with ❤️ by <a href="https://github.com/lazar-iliev-dev">Lazar Iliev</a></sub> </div>
