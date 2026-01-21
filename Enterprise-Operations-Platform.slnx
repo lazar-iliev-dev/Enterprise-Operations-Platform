@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/AppHost/">
+    <Project Path="src/AppHost/Enterprise-Operations-Platform.AppHost.csproj" />
+  </Folder>
+  <Folder Name="/src/ServiceDefaults/">
+    <Project Path="src/ServiceDefaults/Enterprise-Operations-Platform.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/KnowledgeService/" />
+  <Folder Name="/src/Services/KnowledgeService/backend/">
+    <Project Path="src/Services/KnowledgeService/backend/KnowledgeDatabase.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/TaskService/" />
+  <Folder Name="/src/Services/TaskService/SmartTaskAPI/" />
+  <Folder Name="/src/Services/TaskService/SmartTaskAPI/src/">
+    <Project Path="src/Services/TaskService/SmartTaskAPI/src/Api/Api.csproj" />
+    <Project Path="src/Services/TaskService/SmartTaskAPI/src/Application/Application.csproj" />
+    <Project Path="src/Services/TaskService/SmartTaskAPI/src/Domain/Domain.csproj" />
+    <Project Path="src/Services/TaskService/SmartTaskAPI/src/Infrastructure/Infrastructure.csproj" />
+  </Folder>
+</Solution>
