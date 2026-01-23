@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🚀 Enterprise Operations Platform
 
 [![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com/)
