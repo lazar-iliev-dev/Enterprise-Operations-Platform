@@ -10,7 +10,7 @@ var postgres = builder.AddPostgres("postgres-server");
 var taskDb = postgres.AddDatabase("taskdb");
 var knowledgeDb = postgres.AddDatabase("knowledgedb");
 
-// Task-Service – Pfad relativ zum AppHost-Projekt:
+// Task-Service – Path relative to the AppHost project:
 // AppHost:      src/AppHost/
 // Api.csproj:   src/Services/TaskService/SmartTaskAPI/src/Api/Api.csproj
 // Relativ:      ../Services/TaskService/SmartTaskAPI/src/Api/Api.csproj
@@ -25,6 +25,12 @@ var knowledgeService = builder.AddProject(
         "knowledge-service",
         "../Services/KnowledgeService/backend/KnowledgeDatabase.csproj")
     .WithReference(knowledgeDb)
+    .WithExternalHttpEndpoints();
+
+// Gateway Service
+var gateway = builder.AddProject(
+        "gateway",
+        "../Services/Gateway/Gateway.csproj")
     .WithExternalHttpEndpoints();
 
 builder.Build().Run();

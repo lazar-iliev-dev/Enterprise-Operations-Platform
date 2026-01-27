@@ -6,7 +6,9 @@
   <Folder Name="/src/ServiceDefaults/">
     <Project Path="src/ServiceDefaults/Enterprise-Operations-Platform.ServiceDefaults.csproj" />
   </Folder>
-  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/">
+    <Project Path="src/Services/Gateway/Gateway.csproj" />
+  </Folder>
   <Folder Name="/src/Services/KnowledgeService/" />
   <Folder Name="/src/Services/KnowledgeService/backend/">
     <Project Path="src/Services/KnowledgeService/backend/KnowledgeDatabase.csproj" />
